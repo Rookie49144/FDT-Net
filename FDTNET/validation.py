@@ -67,6 +67,7 @@ if __name__ == "__main__":
     for img in tqdm.tqdm(val_loader):
         img = [torch.unsqueeze(img[0]["label"], dim=1), img[0]["image"]]
         temp = copy.deepcopy(img[0])
+        # Processing labels
         label1 = torch.where(temp < 30, 1, 0)
         label2 = torch.where(temp < 230, 1, 0)
         img[0] = torch.cat([label1, label2], dim=1).float()
