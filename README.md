@@ -26,4 +26,4 @@ Config.py configures the corresponding parameters and paths
 train.py training documents
 
 4.test
-validation.py
+test.py
