@@ -27,9 +27,9 @@ batch_size = 2
 pretrain = False
 
 
-train_dataset = r'C:\Users\Rookie\Desktop\accunet_data\Train_Folder'
-val_dataset = r'C:\Users\Rookie\Desktop\accunet_data\Val_Folder'
-test_dataset = r'C:\Users\Rookie\Desktop\accunet_data\Test_Folder'
+train_dataset = ''
+val_dataset = ''
+test_dataset = ''
 
 
 
